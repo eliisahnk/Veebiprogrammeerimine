@@ -1,0 +1,5 @@
+CREATE TABLE `if18_eliisa_ha_1`.`vpphotos3` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `userid` INT(11) NOT NULL , `filename` VARCHAR(40) NOT NULL , `created` DATE NOT NULL DEFAULT CURRENT_TIMESTAMP , `privacy` INT(1) NOT NULL , `deleted` TIMESTAMP NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+
+CREATE TABLE `if18_eliisa_ha_1`.`vpuserprofiles` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `userid` INT(11) NOT NULL , `description` VARCHAR(2000) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL , `bgcolor` VARCHAR(7) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL , `txtcolor` VARCHAR(7) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
